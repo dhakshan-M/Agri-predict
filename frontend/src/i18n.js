@@ -1,0 +1,222 @@
+export const translations = {
+  en: {
+    app_title: "Agri Predict",
+    app_subtitle: "Crop Stress Telemetry & AI Advisory Platform",
+    tagline: "IoT Telemetry • 7-Day Soil Trends • Weather Risk • Precision Water & Fertilizer",
+    nav_home: "Home",
+    nav_dashboard: "Farmer Dashboard",
+    nav_soil: "Soil Monitoring",
+    nav_analytics: "7-Day Analytics",
+    nav_weather: "Weather & Rain",
+    nav_calculator: "Fertilizer & Water",
+    nav_advisory: "AI Advisory",
+    nav_reports: "Reports & Alerts",
+    nav_profile: "Farm Profile",
+    login: "Login",
+    logout: "Logout",
+    field_select: "Active Field:",
+    language_btn: "தமிழ் (Tamil)",
+    live_badge: "LIVE IOT SENSOR STREAM",
+    health_score: "Crop Health Score",
+    irrigation_status: "Irrigation Status",
+    motor_running: "IRRIGATING",
+    motor_standby: "STANDBY",
+    
+    // Metrics
+    soil_moisture: "Soil Moisture",
+    soil_temp: "Soil Temperature",
+    soil_ph: "Soil pH",
+    nitrogen: "Nitrogen (N)",
+    phosphorus: "Phosphorus (P)",
+    potassium: "Potassium (K)",
+    reservoir_level: "Water Reservoir",
+    solar_radiation: "Solar Radiation",
+    ambient_humidity: "Ambient Humidity",
+    sensor_voltage: "Sensor Telemetry Bus",
+    
+    // Status
+    status_healthy: "Optimal / Healthy",
+    status_warning: "Moderate Stress",
+    status_critical: "Critical Stress Detected",
+    
+    // Home Page
+    hero_title: "Precision Farming Intelligence for Every Cultivator",
+    hero_subtitle: "Harness real-time IoT sensors, machine learning crop analytics, and localized Tamil & English advisories to protect yields and conserve water.",
+    explore_dashboard: "Open Live Dashboard",
+    learn_more: "Explore 7-Day Analytics",
+    key_capabilities: "Platform Core Capabilities",
+    feat_1_title: "Real-Time Soil Telemetry",
+    feat_1_desc: "Direct monitoring of moisture %, temperature, pH, and NPK root-zone balances via ESP32 / IoT nodes.",
+    feat_2_title: "7-Day Trend Analytics",
+    feat_2_desc: "Interactive time-series tracking with automated AI diagnostic explanations of soil changes.",
+    feat_3_title: "Rainfall Risk & Weather",
+    feat_3_desc: "Forecasts linked to smart irrigation decisions: automatically schedule, delay, or review pump cycles.",
+    feat_4_title: "Precision Agronomic Calculator",
+    feat_4_desc: "Scientific water volume (Litres) and fertilizer splits (Urea, DAP, MOP) based on FAO-56 standards.",
+    feat_5_title: "Bilingual AI Advisor",
+    feat_5_desc: "Actionable, voice-ready recommendations available seamlessly in both Tamil and English.",
+    
+    // Soil Page
+    soil_header: "Detailed Soil Root-Zone Telemetry",
+    soil_sub: "Continuous telemetry from multi-depth soil probes & calibrated NPK optical sensors",
+    npk_title: "Macronutrient Nutrient Balance (mg/kg)",
+    optimal_range: "Target Agronomic Range",
+    current_value: "Current Sensor Reading",
+    acidity_scale: "pH Balance Indicator",
+    
+    // Analytics Page
+    analytics_header: "Seven-Day Soil & Environmental Trend Analysis",
+    analytics_sub: "Chronological multi-parameter sensor evolution and AI health diagnosis",
+    ai_interpretation: "AI Agronomic Diagnostic Interpretation",
+    
+    // Weather Page
+    weather_header: "Live Weather & Precipitation Risk Center",
+    weather_sub: "Precipitation forecasting integrated with automated pump scheduling decisions",
+    next_7_days: "7-Day Meteorological Outlook",
+    automated_irrigation_rule: "Automated Irrigation Recommendation",
+    
+    // Calculator Page
+    calc_header: "Smart Fertilizer & Irrigation Water Calculator",
+    calc_sub: "Calculate exact crop-specific water requirements and balanced NPK fertilizer quantities",
+    select_crop: "Select Target Crop",
+    land_area: "Land Area",
+    area_unit: "Unit",
+    current_soil_moist: "Current Soil Moisture (%)",
+    growth_stage: "Crop Growth Stage",
+    soil_type: "Soil Classification",
+    btn_calculate: "Calculate Scientific Dosage",
+    calc_results: "Precision Recommendation Results",
+    rec_water: "Recommended Water Requirement",
+    rec_fertilizer: "Required Commercial Fertilizer Split",
+    application_schedule: "Agronomic Timing & Application Schedule",
+    agri_disclaimer: "Official Extension Notice",
+    
+    // Advisory Page
+    advisory_header: "AI Farmer Advisory & Recommendations",
+    advisory_sub: "Real-time actionable farm management insights powered by agronomic AI models",
+    voice_read: "Listen Audio (Tamil/English)",
+    category: "Category",
+    action_required: "Recommended Farmer Action",
+    
+    // Alerts Page
+    reports_header: "Farm Reports, Sensor Logs & Alert Center",
+    reports_sub: "Tri-color priority alerts (Green / Yellow / Red), CSV data import, and downloadable advisory reports",
+    upload_csv_title: "Upload Custom Field Sensor CSV",
+    upload_csv_desc: "Drag & drop or select an IoT sensor CSV file to ingest readings directly into the telemetry database",
+    btn_download_report: "Print / Save PDF Advisory Report",
+    filter_all: "All Alerts",
+    filter_red: "Critical (Red)",
+    filter_yellow: "Warning (Yellow)",
+    filter_green: "Normal (Green)"
+  },
+  ta: {
+    app_title: "அக்ரி பிரிடிக்ட் (Agri Predict)",
+    app_subtitle: "பயிர் அழுத்த தொலைநிலை மற்றும் AI வேளாண்மை தளம்",
+    tagline: "மண் உணரி தரவுகள் • 7 நாள் போக்குகள் • மழை முன்னறிவிப்பு • துல்லிய பாசனம் & உர மேலாண்மை",
+    nav_home: "முகப்பு",
+    nav_dashboard: "விவசாயி டாஷ்போர்டு",
+    nav_soil: "மண் கண்காணிப்பு",
+    nav_analytics: "7-நாள் பகுப்பாய்வு",
+    nav_weather: "வானிலை & மழை",
+    nav_calculator: "உரம் & நீர் கணக்கீடு",
+    nav_advisory: "AI விவசாய ஆலோசனை",
+    nav_reports: "அறிக்கைகள் & எச்சரிக்கைகள்",
+    nav_profile: "பண்ணை விவரம்",
+    login: "உள்நுழைவு",
+    logout: "வெளியேறு",
+    field_select: "தேர்ந்தெடுத்த நிலம்:",
+    language_btn: "English (ஆங்கிலம்)",
+    live_badge: "நேரடி உணரி தரவு ஸ்ட்ரீம்",
+    health_score: "பயிர் ஆரோக்கிய மதிப்பீடு",
+    irrigation_status: "பாசன நிலை",
+    motor_running: "இயங்குகிறது",
+    motor_standby: "காத்திருப்பு",
+    
+    // Metrics
+    soil_moisture: "மண் ஈரப்பதம்",
+    soil_temp: "மண் வெப்பநிலை",
+    soil_ph: "மண் கார அமிலத்தன்மை (pH)",
+    nitrogen: "தழைச்சத்து (N)",
+    phosphorus: "மணிச்சத்து (P)",
+    potassium: "சாம்பல் சத்து (K)",
+    reservoir_level: "நீர் தொட்டி இருப்பு",
+    solar_radiation: "சூரிய கதிர்வீச்சு",
+    ambient_humidity: "காற்றின் ஈரப்பதம்",
+    sensor_voltage: "உணரி மின்னழுத்தம்",
+    
+    // Status
+    status_healthy: "உகந்தது / ஆரோக்கியமானது",
+    status_warning: "மிதமான பயிர் அழுத்தம்",
+    status_critical: "தீவிர அழுத்தம் கண்டறியப்பட்டது",
+    
+    // Home Page
+    hero_title: "விவசாயிகளுக்கான நவீன துல்லிய வேளாண் தொழில்நுட்பம்",
+    hero_subtitle: "மண் உணரி தரவுகள், வானிலை முன்னறிவிப்பு மற்றும் தமிழ் & ஆங்கிலத்தில் AI ஆலோசனைகள் மூலம் அதிக விளைச்சல் மற்றும் நீர் சேமிப்பு பெறுங்கள்.",
+    explore_dashboard: "டாஷ்போர்டை திறக்கவும்",
+    learn_more: "7-நாள் பகுப்பாய்வை காண்க",
+    key_capabilities: "தளத்தின் முக்கிய வசதிகள்",
+    feat_1_title: "நேரடி மண் உணரி கண்காணிப்பு",
+    feat_1_desc: "மண் ஈரப்பதம், வெப்பநிலை, pH மற்றும் NPK சத்துக்களின் தொடர் நேரடி கண்காணிப்பு.",
+    feat_2_title: "7-நாள் வரலாற்றுப் பகுப்பாய்வு",
+    feat_2_desc: "மண் மாற்றங்களின் வரைபடங்கள் மற்றும் AI-ஆல் உருவாக்கப்பட்ட எளிய விளக்கங்கள்.",
+    feat_3_title: "மழை அபாய முன்னறிவிப்பு",
+    feat_3_desc: "மழை வாய்ப்பை ஆராய்ந்து நீர்ப்பாசனத்தை தொடங்கவோ, தள்ளிப்போடவோ அல்லது குறைக்கவோ துல்லிய வழிகாட்டுதல்.",
+    feat_4_title: "துல்லிய உர & நீர் கணக்கீடு",
+    feat_4_desc: "பயிரின் தேவைக்கேற்ப லிட்டரில் நீர் மற்றும் யூரியா, டிஏபி, பொட்டாஷ் சரியான அளவில் கணக்கிடும் வசதி.",
+    feat_5_title: "இருமொழி AI விவசாய ஆலோசகர்",
+    feat_5_desc: "தமிழ் மற்றும் ஆங்கிலத்தில் எளிதாக புரிந்துகொள்ளக்கூடிய செயல்முறை பரிந்துரைகள் மற்றும் ஒலி வடிவம்.",
+    
+    // Soil Page
+    soil_header: "மண் வேர் மண்டல நேரடி கண்காணிப்பு",
+    soil_sub: "மண்ணின் ஆழத்தில் உள்ள ஈரப்பதம், கார அமிலத்தன்மை மற்றும் NPK சத்துக்களின் துல்லிய அளவீடுகள்",
+    npk_title: "முக்கிய ஊட்டச்சத்து சமநிலை (மி.கி/கிலோ)",
+    optimal_range: "பரிந்துரைக்கப்பட்ட அளவு",
+    current_value: "தற்போதைய உணரி மதிப்பு",
+    acidity_scale: "மண் அமில/கார நிலை அளவு",
+    
+    // Analytics Page
+    analytics_header: "ஏழு நாள் மண் & சூழல் போக்கு பகுப்பாய்வு",
+    analytics_sub: "கடந்த 7 நாட்களின் தொடர் மாற்றங்கள் மற்றும் AI வேளாண்மை கண்டறிதல் விளக்கம்",
+    ai_interpretation: "செயற்கை நுண்ணறிவு வேளாண் விளக்கம்",
+    
+    // Weather Page
+    weather_header: "நேரடி வானிலை & மழை முன்னறிவிப்பு மையம்",
+    weather_sub: "எதிர்பார்க்கப்படும் மழைப்பொழிவு மற்றும் மோட்டார் பாசன பரிந்துரைகள்",
+    next_7_days: "அடுத்த 7 நாட்களின் வானிலை கண்ணோட்டம்",
+    automated_irrigation_rule: "தானியங்கி நீர்ப்பாசன வழிகாட்டுதல்",
+    
+    // Calculator Page
+    calc_header: "துல்லிய உரம் & நீர் தேவை கணக்கீட்டுக் கருவி",
+    calc_sub: "உங்கள் நிலப்பரப்பு, மண் வகை மற்றும் வளர்ச்சிப் பருவத்திற்கு ஏற்ப சரியான நீர் மற்றும் உர அளவை கணக்கிடுங்கள்",
+    select_crop: "பயிரை தேர்ந்தெடுக்கவும்",
+    land_area: "நிலப்பரப்பு",
+    area_unit: "அளவீட்டு அலகு",
+    current_soil_moist: "தற்போதைய மண் ஈரப்பதம் (%)",
+    growth_stage: "பயிர் வளர்ச்சிப் பருவம்",
+    soil_type: "மண் வகை",
+    btn_calculate: "தேவையை கணக்கிடுக",
+    calc_results: "பரிந்துரைக்கப்பட்ட அளவீடுகள்",
+    rec_water: "பரிந்துரைக்கப்படும் நீர் அளவு",
+    rec_fertilizer: "தேவைப்படும் உரங்களின் அளவு",
+    application_schedule: "உரமிடும் கால அட்டவணை",
+    agri_disclaimer: "வேளாண் விரிவாக்க அறிவிப்பு",
+    
+    // Advisory Page
+    advisory_header: "செயற்கை நுண்ணறிவு விவசாய ஆலோசனைகள்",
+    advisory_sub: "மண் மற்றும் வானிலையை ஆராய்ந்து உடனடியாக செய்ய வேண்டிய விவசாய பரிந்துரைகள்",
+    voice_read: "குரல் வடிவில் கேளுங்கள் (Tamil/English)",
+    category: "பிரிவு",
+    action_required: "விவசாயி செய்ய வேண்டிய செயல்",
+    
+    // Alerts Page
+    reports_header: "பண்ணை அறிக்கைகள், உணரி பதிவுகள் & எச்சரிக்கை மையம்",
+    reports_sub: "முன்னுரிமை எச்சரிக்கைகள் (பச்சை / மஞ்சள் / சிவப்பு), CSV கோப்பு பதிவேற்றம் மற்றும் அச்சிடத்தக்க அறிக்கை",
+    upload_csv_title: "புதிய உணரி CSV கோப்பை பதிவேற்றுக",
+    upload_csv_desc: "IoT உணரி பதிவு கோப்பை இங்கே இழுத்து விடவும் அல்லது தேர்ந்தெடுக்கவும்",
+    btn_download_report: "அறிக்கையை அச்சிடு / PDF சேமி",
+    filter_all: "அனைத்து எச்சரிக்கைகள்",
+    filter_red: "தீவிர அபாயம் (சிவப்பு)",
+    filter_yellow: "கவனிக்க (மஞ்சள்)",
+    filter_green: "சீரானது (பச்சை)"
+  }
+};
